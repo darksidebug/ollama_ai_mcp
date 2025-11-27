@@ -4,6 +4,6 @@ docker compose up -d --build
 docker exec -it ollama-cpu ollama pull llama3
 
 curl -X POST http://localhost:8002/generate \
-  -H "X-API-KEY: 8b3c7e58a0f9de56df5b1a0efd324730c899a1a69d78f0e94c06199618e9bcdc" \
+  -H "X-API-KEY: your_api_key" \
   -H "Content-Type: application/json" \
   -d '{"prompt":"What is the latest tech as of this year?", "model": "llama3"}'
