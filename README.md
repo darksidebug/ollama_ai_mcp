@@ -5,10 +5,12 @@
 ### CD to the project directory
 On your terminal run:
 
+`Build project`
 ```bash
 docker compose up -d --build
 ```
 
+`Pull llama model`
 ```bash
 docker exec -it ollama-cpu ollama pull llama3
 ```
