@@ -3,18 +3,18 @@
 #### Clone or fork the project
 
 ### CD to the project directory
-On your terminal run:
+On your terminal run command below to build the project
 
-`Build project`
 ```bash
 docker compose up -d --build
 ```
 
-`Pull llama model`
+Pull LLaMA 3 AI model
 ```bash
 docker exec -it ollama-cpu ollama pull llama3
 ```
 
+Test your AI
 ```bash
 curl -X POST http://localhost:8002/generate \
   -H "X-API-KEY: your_api_key" \
