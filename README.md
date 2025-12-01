@@ -1,8 +1,6 @@
 ## **Self-Hosted AI Model (LLaMA 3) with Python + FastAPI**
 
-#### Clone or fork the project
-
-### CD to the project directory
+### Clone or fork the project and CD to the project directory
 On your terminal run command below to build the project
 
 ```bash
