@@ -14,7 +14,7 @@ Pull LLaMA 3 AI model
 docker exec -it ollama-cpu ollama pull llama3
 ```
 
-Test your AI
+Test your AI, on your terminal run:
 ```bash
 curl -X POST http://localhost:8002/generate \
   -H "X-API-KEY: your_api_key" \
