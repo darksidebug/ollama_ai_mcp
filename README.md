@@ -4,8 +4,7 @@ docker run -it -p 11434:11434 ollama/ollama:latest serve -->
 docker compose up -d --build
 ```
 
-```
-bash
+```bash
 docker exec -it ollama-cpu ollama pull llama3
 ```
 
