@@ -1,5 +1,7 @@
 ## **Self-Hosted AI Model with Python + FastAPI**
 
+#### Clone the project
+
 ```bash
 docker compose up -d --build
 ```
