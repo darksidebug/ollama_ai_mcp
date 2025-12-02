@@ -17,6 +17,15 @@ RATE_LIMIT_REFILL_SECONDS = int(os.environ.get("RATE_LIMIT_REFILL_SECONDS", "60"
 RATE_LIMIT_TOKENS_PER_REFILL = int(os.environ.get("RATE_LIMIT_TOKENS_PER_REFILL", "10"))
 
 app = FastAPI(title="Llama Ollama Proxy (CPU) with Search")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # your frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],  # allow GET, POST, etc.
+    allow_headers=["*"],  # allow custom headers like X-API-KEY
+)
+
+logging.basicConfig(level=logging.INFO)
 
 # ============================
 # TOKEN BUCKET RATE LIMITER
