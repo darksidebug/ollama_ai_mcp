@@ -1,6 +1,5 @@
 services:
   ollama:
-    # image: ollama/ollama:latest
     build: ./ollama_ai_model
     container_name: ollama-cpu
     ports:
