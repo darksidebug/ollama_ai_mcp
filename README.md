@@ -1,4 +1,4 @@
-## **Self-Hosted AI Model (LLaMA 3) with Python + FastAPI**
+## **Self-Hosted AI Model (LlaMA 3) with Python + FastAPI**
 
 ### Clone or fork the project and CD to the project directory
 On your terminal run command below to build the project
@@ -7,9 +7,20 @@ On your terminal run command below to build the project
 docker compose up -d --build
 ```
 
-Pull LLaMA 3 AI model
+Pull LLaMA 3 AI model (by default this will pull the model with 8b parameters)
 ```bash
 docker exec -it ollama-cpu ollama pull llama3
+```
+
+Check if LlaMA is installed
+```bash
+docker exec -it ollama-cpu bash
+ollama lists
+```
+you should see something like this
+```text
+NAME             ID         SIZE      MODIFIED   
+llama3:latest    ...        ...       ....
 ```
 
 Test your AI, on your terminal run:
