@@ -41,6 +41,10 @@ curl -X POST http://localhost:8002/generate \
 
 - Replace `your_api_key` with your own generated key
 - To generate a key
+  - Create a `.env` file on the project directory
+    ```bash
+    API_KEY=paste-your-generated-key-here
+    ```
   - For user using bash on windows or user using Mac OS/Linux
     ```bash
     openssl rand -hex 32
