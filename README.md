@@ -54,7 +54,7 @@ curl -X POST http://localhost:8002/generate \
   -d '{"prompt":"What is the latest tech as of this year?", "model": "llama3"}'
 ```
 
-- _Note: Replace `your_api_key` with your own generated key
+- Note: Replace `your_api_key` with your own generated key
     
 
 ### On the project directory create your react frontend app
