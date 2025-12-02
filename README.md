@@ -1,4 +1,4 @@
-# **Self-Hosted AI Model (LlaMA 3) with Python + FastAPI**
+# **Self-Hosted AI Model (LlaMA 3) with Python + FastAPI and React.js for frontend**
 
 ### Clone or fork the project and CD to the project directory
 On your terminal run command below to build the project
