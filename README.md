@@ -8,7 +8,7 @@ HAPPY CHATTING WITH YOUR FIRST SELF-HOSTED AI
 
 
 ### First install docker desktop on your laptop/PC
-[link text] https://www.docker.com/products/docker-desktop/
+https://www.docker.com/products/docker-desktop/
 
 ### Clone or fork the project and CD to the project directory
 On your terminal run command below to build the project. I suggest you to fork the project
